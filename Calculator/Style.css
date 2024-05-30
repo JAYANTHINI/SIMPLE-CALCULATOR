@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    background-color: cadetblue;
+}
+div{
+    text-align: center;
+}
+div hr{
+    margin: 14px 0;
+}
+div input[type=number]{
+    margin: 8px 0;
+    padding:8px;
+    width:100%;
+    font-size:auto
+}
+div input[type=number]:read-only{
+    background-color: rgb(49, 45, 45);
+    color: chocolate;
+    padding:10px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+div button{
+    margin:0 4px;
+    padding:6px 0;
+    font-size:19px ;
+    width: 62px;
+    cursor: pointer;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: azure;
+}
+div button:hover{
+    background-color: rgb(156, 136, 175);
+}
